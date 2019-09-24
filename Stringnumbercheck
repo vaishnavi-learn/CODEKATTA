@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+      	String N=scanner.next();
+      	char a[]=N.toCharArray();
+      	int k=scanner.nextInt();
+      int count;
+      
+      for(int i=0;i<=k;i++)
+      {
+        count=0;
+        for(int j=0;j<a.length;j++)
+        {
+          if(a[j]==i)
+          {
+            count++;
+            break;
+          }
+        }
+        if(count==0)
+        {
+          System.out.println("no");
+			break;
+        }
+      
+		}
+      if(count>0)
+      {
+        System.out.println("yes");
+      }
+      
+}
+}
