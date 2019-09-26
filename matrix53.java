@@ -33,7 +33,7 @@ public class Main {
 		  {
 			
 			  //System.out.print("first loop"+row+col+" row col"+a[row][col]);
-			  System.out.print(a[row][col]);
+			  System.out.print(a[row][col]+" ");
 			  total++;
 			  col++;
 		  }
@@ -45,7 +45,7 @@ public class Main {
 		  {		  
 			  
 			  //System.out.print("2nd"+row+col+" row col"+a[row][col]);
-			  System.out.print(a[row][col]);
+			  System.out.print(a[row][col]+" ");
 			  total++;
 			  row++;			  
 		  }
@@ -58,7 +58,7 @@ public class Main {
 		  {
 			 
 			  //System.out.print("3rd"+row+col+" row col"+a[row][col]);
-			  System.out.print(a[row][col]);
+			  System.out.print(a[row][col]+" ");
 			  total++;
 			  col--;
 			  
@@ -74,7 +74,7 @@ public class Main {
 			  //System.out.print(row+col+" row col"+a[row][col]);
 			 prevrow=row;
 			 prevcol=col;
-			  System.out.print(a[row][col]);
+			  System.out.print(a[row][col]+" ");
 			  total++;
 			  row--;			  
 		  }		  		  
