@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+      int a;
+      boolean composite=false;     
+      a=scanner.nextInt();
+      int m=(int)Math.sqrt(a);
+      for(int i=2;i<=m;i++)
+      {
+        if(a%i==0)
+          {
+           composite=true;
+            break;
+          }
+      }
+      if(composite)
+        System.out.println("yes");
+      else
+        System.out.println("no");
+    }
+}
